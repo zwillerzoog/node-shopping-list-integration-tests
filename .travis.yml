@@ -1,3 +1,10 @@
 language: node_js
 node_js: node
-
+deploy:
+  provider: heroku
+  api_key:
+    secure: PzonUHup20lqYzyxFWc59idhDF5pp21HuqL58WOxfMBbTOxnCzoegYsjsRoW7oHihpDh0GkAD1GeS+8sQleYruuFGcCA38mka/DjJPGGp7rxHtnl4S/pZDUvSHPBSA9vXauKf3qzagtMzYzPkCc0NJQS3+3cRRdm3P06OOUMT5Oi7TX+PG7wAwfPNgVttpKOBr+6JPlIzBkDMvUkHJm4JdhfAjSL1j6S3KzI6C67rq9Vs5xl50AtRincHHfqIztB5p2d61N6D6XL+L5UfZNRDr3Tsby/n+hR7CqqxY6h3Row7a+8LZoHDNVRnZVgLEzZCiDfGYbb3yWRXW8JglGljjFCx3bGRvmQc9Lhu9adnmKM/2LaJxzFXFMsEocLmW6x9p3HCaGBYB+uX2kIh11wRnSYZauFY2Nf5dNubgX4jhz0JWzJzcN6+9hgNQRQ7j0OFx3y5KgLQcVOj31tKKR0GEGbytVkMRJtG1J9aBziEBLxoFmDErtUJsl9dFCnNThe2j94lipLgSlmi+vS7C2CaTkaomJ7bppisC+5FsmVHbEP7PMPcXO2D17F/00ZpcyuEma+foTkVzx0H7zhnytPBHt3t8PM4c0TE+ZO23QWb4yP44iW/BvwTsLDaD1MRx6Ai/oqrx03eakdfvipoX+CrCtiInGIRZAIZSNTeMfZps8=
+  app: blooming-ridge-77811
+  on:
+    repo: zwillerzoog/node-shopping-list-integration-tests
+    branch: tests-for-recipes
